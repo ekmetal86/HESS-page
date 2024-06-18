@@ -50,6 +50,7 @@ function stopVideo() {
 
 // MUSIC
 
+// Harpokrates
 const harpokrates = [
   { name: '01 - King Aiwass', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 01 King Aiwass.mp3' },
   { name: '02 - God Of Silence', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 02 God of Silence.mp3' },
@@ -59,10 +60,10 @@ const harpokrates = [
   { name: '06 - Battle Of Maldon', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 06 Battle of Maldon.mp3' },
   { name: '07 - Chaos At Uruk', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 07 Chaos at Uruk.mp3' },
   { name: '08 - Atlantean Dreams', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 08 Atlantean Dreams.mp3' },
-  { name: '09 - Hagalaz', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 09 Hagalaz.mp3' }
-
+  { name: '09 - Hagalaz', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 09 Hagalaz.mp3'}
 ];
 
+// Hagalaz
 const hagalaz = [
   { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3'},
   { name: "02 - The Hessian", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 02 The Hessian.mp3'},
@@ -76,10 +77,12 @@ const hagalaz = [
   { name: "10 - Diamonds & Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3'}
 ];
 
+// Caught somewhere in time
 const maiden = [
   {name: "Caught Somewhere In Time - Iron Maiden cover", source: 'music/HESS - Varios/HESS - Caught Somewhere In Time.mp3'}
 ];
 
+// Sailor's cross
 const sailor = [
   {name: "Sailor`s Cross - European Edition", source: 'music/HESS - Varios/Sailor`s Cross - European Edition.mp3'}
 ];
