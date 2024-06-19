@@ -77,6 +77,13 @@ const hagalaz = [
   { name: "10 - Diamonds & Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3'}
 ];
 
+// Aeon of Ma'at part 1
+const aeon = [
+  {name: "01 - Priest Of Heka", source: 'music/HESS - Aeon/HESS - priests of heka.mp3'},
+  {name: "02 - Know My Name", source: 'music/HESS - Aeon/HESS - know my name.mp3'},
+  {name: "03 - Hall Of Truth", source: 'music/HESS - Aeon/HESS - hall of truth.mp3'}
+];
+
 // Caught somewhere in time
 const maiden = [
   {name: "Caught Somewhere In Time - Iron Maiden cover", source: 'music/HESS - Varios/HESS - Caught Somewhere In Time.mp3'}
@@ -84,11 +91,15 @@ const maiden = [
 
 // Sailor's cross
 const sailor = [
-  {name: "Sailor`s Cross - European Edition", source: 'music/HESS - Varios/Sailor`s Cross - European Edition.mp3'}
+  {name: "Sailor's Cross - European Edition", source: 'music/HESS - varios/HESS - sailors cross.mp3'}
 ];
+
+
+
 
 const playlistHarpokrates = document.getElementById('playlist-harpokrates');
 const playlistHagalaz = document.getElementById('playlist-hagalaz');
+const playlistAeon = document.getElementById('playlist-aeon');
 const playlistMaiden = document.getElementById('playlist-maiden');
 const playlistSailor = document.getElementById('playlist-sailor');
 
@@ -109,6 +120,14 @@ hagalaz.forEach((song1, index1) => {
   listItem.className = 'playlist-item';
   listItem.addEventListener('click', () => playHagalaz(index1));
   playlistHagalaz.appendChild(listItem);
+});
+
+aeon.forEach((song2, index2) => {
+  const listItem = document.createElement('li');
+  listItem.textContent = song2.name;
+  listItem.className = 'playlist-item';
+  listItem.addEventListener('click', () => playAeon(index2));
+  playlistAeon.appendChild(listItem);
 });
 
 maiden.forEach((song2, index2) => {
@@ -135,6 +154,12 @@ function playHarpokrates(index) {
 
 function playHagalaz(index){
   const selectedSong1 = hagalaz[index];
+  audioPlayer.src = selectedSong1.source;
+  audioPlayer.play();
+}
+
+function playAeon(index2){
+  const selectedSong1 = aeon[index2];
   audioPlayer.src = selectedSong1.source;
   audioPlayer.play();
 }
