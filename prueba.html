@@ -1,85 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproductor de Audio</title>
-    <style>
-        body {
-            background-color: #111;
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        #audio-container {
-            text-align: center;
-        }
-
-        audio {
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        #playlist {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-
-        .playlist-item {
-            cursor: pointer;
-            margin: 5px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba</title>
 </head>
 <body>
-    <div id="audio-container">
-        <h1>Reproductor de Audio</h1>
-        
-        <ul id="playlist"></ul>
-        
-        <audio controls id="audio-player">
-            Tu navegador no soporta el elemento de audio.
-        </audio>
-    </div>
-
-    <script>
-        const songs = [
-            { name: '01 - King Aiwass', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 01 King Aiwass.mp3' },
-            { name: '02 - God Of Silence', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 02 God of Silence.mp3' },
-            { name: '03 - Thoth', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 03 Thoth.mp3' },
-            { name: '04 - The Outsider', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 04 The Outsider.mp3' },
-            { name: '05 - Heroes', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 05 Heroes.mp3' },
-            { name: '06 - Battle Of Maldon', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 06 Battle of Maldon.mp3' },
-            { name: '07 - Chaos At Uruk', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 07 Chaos at Uruk.mp3' },
-            { name: '08 - Atlantean Dreams', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 08 Atlantean Dreams.mp3' },
-            { name: '09 - Hagalaz', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 09 Hagalaz.mp3' }
-            
-        ];
-
-        const playlist = document.getElementById('playlist');
-        const audioPlayer = document.getElementById('audio-player');
-
-        songs.forEach((song, index) => {
-            const listItem = document.createElement('li');
-            listItem.textContent = song.name;
-            listItem.className = 'playlist-item';
-            listItem.addEventListener('click', () => playAudio(index));
-            playlist.appendChild(listItem);
-        });
-
-        function playAudio(index) {
-            const selectedSong = songs[index];
-            audioPlayer.src = selectedSong.source;
-            audioPlayer.play();
-        }
-    </script>
+    <nav class="navegador">
+        <div class="nav">
+            <div class="dropdown boton">
+                <button class="dropbtn"></button>
+                <div class="dropdown-content">
+                    <a class="nav-link wolfsbane" href="index.html">Home</a>
+                    <a class="nav-link wolfsbane" href="shows.html">LIVE SHOWS</a>
+                    <a class="nav-link wolfsbane" href="interviews.html">Interviews</a>
+                    <a class="nav-link wolfsbane" href="reviews.html">Reviews</a>
+                    <a class="nav-link wolfsbane" href="music.html">Music</a>
+                    <a class="nav-link wolfsbane" href="biography.html">Biography</a>
+                    <a class="nav-link wolfsbane" href="gallery.html">Gallery</a>
+                    <a class="nav-link wolfsbane" href="lyrics.html">Lyrics</a>
+                    <a class="nav-link wolfsbane" href="melanihess.html">Melani Hess</a>
+                    <a class="nav-link wolfsbane" href="band.html">Band Members</a>
+                    <a class="nav-link wolfsbane" href="videos.html">Videos</a>
+                    <a class="nav-link wolfsbane" href="discography.html">Discography</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
