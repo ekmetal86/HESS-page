@@ -67,7 +67,7 @@ const harpokrates = [
 const hagalaz = [
   { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3'},
   { name: "02 - The Hessian", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 02 The Hessian.mp3'},
-  { name: "03 - Clarisse`s Nightmare", source: "music/HESS - Hagalaz/HESS - Hagalaz - 03 Clarisse's Nightmare.mp3"},
+  { name: "03 - Clarisse's Nightmare", source: "music/HESS - Hagalaz/HESS - Hagalaz - 03 Clarisse's Nightmare.mp3"},
   { name: "04 - Der Teufel und sein Lehrling", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 04 Der Teufel und sein Lehrling.mp3'},
   { name: "05 - The Giant (in memory of Ronnie James Dio)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3'},
   { name: "06 - Interpretación", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 06 Interpretación.mp3'},
