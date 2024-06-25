@@ -2,6 +2,7 @@
     0% {
         box-shadow: 0px 0px 20px var(--colorFondo);
     }
+
     100% {
         box-shadow: 0px 0px 20px gold;
     }
@@ -49,11 +50,11 @@ a img {
 
 
 .navegador {
-    width:auto;
+    width: auto;
     height: 20em;
     background-image: url(assets/hess2g11.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     box-sizing: content-box;
     background-position-y: 40%;
 }
@@ -175,6 +176,7 @@ a img {
     margin-top: 13%;
     background-color: var(--colorFondo);
 }
+
 .aside-title {
     padding: 1em;
 }
@@ -442,7 +444,11 @@ audio {
     margin-top: 10px;
 }
 
-#playlist-harpokrates, #playlist-hagalaz, #playlist-maiden, #playlist-sailor, #playlist-aeon {
+#playlist-harpokrates,
+#playlist-hagalaz,
+#playlist-maiden,
+#playlist-sailor,
+#playlist-aeon {
     font-size: 2em;
     list-style: none;
     padding-bottom: 2em;
@@ -533,12 +539,13 @@ audio {
 
 .right {
     width: 45%;
-    float:right;
+    float: right;
     margin: 2%;
     margin-bottom: 2em;
 }
 
-.left h2, .right h2 {
+.left h2,
+.right h2 {
     color: var(--colorLetras);
     text-align: left;
     text-decoration: underline;
@@ -548,7 +555,8 @@ audio {
     padding: 0.5em;
 }
 
-.left h3, .right h3 {
+.left h3,
+.right h3 {
     color: var(--colorLetras);
     text-align: left;
     text-decoration: underline;
@@ -560,7 +568,8 @@ audio {
 
 }
 
-.left p, .right p{
+.left p,
+.right p {
     color: var(--colorLetras);
     text-align: left;
     font-style: 'wolfsbane', sans-serif;
@@ -568,7 +577,9 @@ audio {
     letter-spacing: 0.05em;
     padding: 0.5em;
 }
-.left ul li, .right ul li {
+
+.left ul li,
+.right ul li {
     color: var(--colorLetras);
     text-align: left;
     font-style: 'wolfsbane', sans-serif;
@@ -591,12 +602,13 @@ audio {
 .hess-gallery {
     color: var(--colorLetras);
     width:fit-content;
-    margin: 40px;
+    margin: auto;
     font-family: 'wolfs-bane-regular', sans-serif;
     font-size: 1.3em;
     letter-spacing: 0.05;
     text-align: center;
 }
+
 
 .efect h1 {
     padding-bottom: 5px;
@@ -610,34 +622,28 @@ audio {
     animation-direction: alternate;
 }
 
-.cartas-gallery {
-    display:inline-block;
-    width: 20%;
-    margin: 1%;
-    /* outline: 1px solid var(--colorBordes); */
-    background-color: var(--colorFondo);
-    border-radius: 2%;
-    z-index: 10;
+.caja-imgs {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
-.img-cartas-gallery img {
-    width: 100%;
-    border-radius: 2%;
+.caja-imgs img {
+    height: 40vh;
+    margin: 2%;
+    outline: 1px solid var(--colorBordes);
+    border-radius: 1%;
     opacity: 0.6;
+    min-height: 100px;
+    
 }
 
-.img-cartas-gallery img:hover {
-    transform: scale(1.2);
+.caja-imgs img:hover {
+    opacity: 1;
     transition: .5s;
-    opacity: 1; 
-}
-
-.cartas-gallery:hover {
-    outline: none;
-}
-
-.article-gallery  {
-    padding-bottom: 3em;
 }
 
 
