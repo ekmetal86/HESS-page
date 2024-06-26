@@ -1,0 +1,58 @@
+@import url(style.css);
+
+/* -------------------- INTERVIEWS -------------------- */
+
+.interviews-h1 {
+    width: 50%;
+    margin: 1.3em;
+    color: var(--colorLetras);
+    font-size: 4em;
+    font-family: 'wolfsbane', sans-serif;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+}
+
+.article {
+    border-right: 1px solid var(--colorBordes);
+    width: 75%;
+}
+
+
+.interviews-cards {
+    color: var(--colorLetras);
+    font-style: 'wolfsbane', sans-serif;
+    letter-spacing: 0.05em;
+    /* border: 0.5px solid var(--colorBordes); */
+    width: 75%;
+    padding: 2em;
+    margin: 3em;
+}
+
+.interviews-cards h2 {
+    border-top: 0.8px solid var(--colorBordes);
+    padding: 0.5em;
+    font-size: 3em;
+    width: 50%;
+}
+
+.interviews-cards p {
+    width: 70%;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.interviews-cards img {
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.interviews-cards a {
+    padding: 1em;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    color: var(--colorLetras);
+}
+
+.interviews-cards iframe {
+    width: 90%;
+}

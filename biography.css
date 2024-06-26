@@ -1,0 +1,75 @@
+@import url(style.css);
+
+/* -------------------- BIOGRAPRHY -------------------- */
+
+.article-biography {
+    border: 1px solid var(--colorBordes);
+    width: 95%;
+    margin: 2em;
+    display: flex;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    margin: 2%;
+    margin-bottom: 2em;
+}
+
+.right {
+    width: 45%;
+    float: right;
+    margin: 2%;
+    margin-bottom: 2em;
+}
+
+.left h2,
+.right h2 {
+    color: var(--colorLetras);
+    text-align: left;
+    text-decoration: underline;
+    font-style: 'wolfsbane', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    padding: 0.5em;
+}
+
+.left h3,
+.right h3 {
+    color: var(--colorLetras);
+    text-align: left;
+    text-decoration: underline;
+    font-style: 'wolfsbane', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    padding: 1em;
+    margin-top: 3em;
+
+}
+
+.left p,
+.right p {
+    color: var(--colorLetras);
+    text-align: left;
+    font-style: 'wolfsbane', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    padding: 0.5em;
+}
+
+.left ul li,
+.right ul li {
+    color: var(--colorLetras);
+    text-align: left;
+    font-style: 'wolfsbane', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    padding: 0.5em;
+}
+
+.biography-link {
+    padding: 1em;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    color: var(--colorLetras);
+}

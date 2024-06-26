@@ -1,0 +1,51 @@
+@import url(style.css);
+
+/* -------------------- GALLERY -------------------- */
+
+
+.hess-gallery {
+    color: var(--colorLetras);
+    width:fit-content;
+    margin: auto;
+    font-family: 'wolfs-bane-regular', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05;
+    text-align: center;
+}
+
+
+.efect h1 {
+    padding-bottom: 5px;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    border-radius: 3%;
+    animation-name: latido;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.caja-imgs {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.caja-imgs img {
+    height: 40vh;
+    margin: 2%;
+    outline: 1px solid var(--colorBordes);
+    border-radius: 1%;
+    opacity: 0.6;
+    min-height: 100px;
+    
+}
+
+.caja-imgs img:hover {
+    opacity: 1;
+    transition: .5s;
+}

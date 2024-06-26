@@ -1,0 +1,59 @@
+@import url(style.css);
+
+/* -------------------- MUSIC -------------------- */
+
+.musica {
+    float: right;
+    width: 40%;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+/* -------------------- MUSIC PLAY-------------------- */
+
+.play {
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+    font-family: 'wolfsbane', sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.play h2 {
+    font-size: 3em;
+    text-decoration: underline;
+    letter-spacing: 0.05em;
+}
+
+#audio-container {
+    text-align: center;
+    margin: 5em;
+}
+
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#playlist-harpokrates,
+#playlist-hagalaz,
+#playlist-maiden,
+#playlist-sailor,
+#playlist-aeon {
+    font-size: 2em;
+    list-style: none;
+    padding-bottom: 2em;
+    text-align: center;
+    /* max-width: 300px; */
+    margin-top: 25px auto;
+}
+
+.playlist-item {
+    cursor: pointer;
+    margin: 10px 0;
+}

@@ -1,0 +1,95 @@
+@import url(style.css);
+
+
+/* -------------------- MELANI HESS -------------------- */
+
+.carta-melani-hess {
+    width: 90%;
+    color: var(--colorLetras);
+    padding: 20px;
+    margin: 40px;
+    font-family: 'wolfs-bane-regular', sans-serif;
+}
+
+
+
+.carta-melani-hess h1 {
+    margin: 20px;
+    padding: 20px 0;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    color: var(--colorLetras);
+}
+
+.carta-melani-hess img {
+    width: 50%;
+    margin: 20px;
+
+}
+
+.carta-melani-hess img:hover {
+    transition: all;
+    transition-duration: 2s;
+    outline: 1px solid var(--colorBordes);
+}
+
+.melani-info {
+    width: 70%;
+    color: var(--colorLetras);
+    margin: 20px;
+    font-family: 'wolfs-bane-regular', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    padding-bottom: 30px;
+}
+
+.melani-history {
+    width: 70%;
+    margin: 20px;
+    color: var(--colorLetras);
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    padding-bottom: 3em;
+}
+
+.melani-history h3 {
+    padding: 20px 0;
+}
+
+.line {
+    width: 70%;
+    border-bottom: solid 2px var(--colorBordes);
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+
+.discography {
+    width: 50%;
+    color: var(--colorLetras);
+    margin: 20px;
+    font-family: 'wolfs-bane-regular', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    padding-bottom: 30px;
+}
+
+.discography h3 {
+    padding-bottom: 2em;
+    letter-spacing: 0.05em;
+}
+
+.discography h4 {
+    padding-bottom: 0.8em;
+    letter-spacing: 0.05em;
+}
+
+.discography ul {
+    padding-bottom: 2em;
+}
+
+.mel-player {
+    width: 50%;
+    margin: 20px;
+    background-color: var(--colorFondo);
+}

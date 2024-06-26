@@ -1,0 +1,52 @@
+@import url(style.css);
+
+
+/* -------------------- BAND MEMBERS -------------------- */
+
+.carta-band-members {
+    width: 60%;
+    color: var(--colorLetras);
+    padding: 20px;
+    margin: 40px;
+    font-family: 'wolfs-bane-regular', sans-serif;
+}
+
+.carta-band-members h1 {
+    padding-bottom: 20px;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+}
+
+.carta-band-members img {
+    width: 80%;
+}
+
+.carta-band-members img:hover {
+    transition: all;
+    transition-duration: 2s;
+    outline: 1px solid var(--colorBordes);
+}
+
+.antiguos {
+    width: 60%;
+    color: var(--colorLetras);
+    padding: 20px;
+    margin: 40px;
+    font-family: 'wolfs-bane-regular', sans-serif;
+}
+
+.antiguos h3 {
+    padding-bottom: 20px;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+.antiguos li {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+ul {
+    list-style: none;
+}
