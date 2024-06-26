@@ -10,33 +10,22 @@
     align-content: flex-start;
     align-items: start;
 }
+
 .hess-lyrics {
     color: var(--colorLetras);
     width: 100%;
-    margin: 3%;
+    margin: 2%;
+    padding: 2%;
     font-family: 'wolfsbane', sans-serif;
     font-size: 5em;
     letter-spacing: 0.05;   
 }
 
-.titulos {
-    display: flex;
-    width: 100%;
-    margin: 3%;
-    padding: 1em;
-    border: 1px solid red;
-}
-
-.title {
-    font-family: "wolfbane ",sans-serif;
-    color: var(--colorLetras);
-    font-size: 2em;
-}
 
 .king, .god, .thoth, .outsider, .heroes, .battle, .chaos, .atlantean, .hagalaz {
     display: flex;
     width: 100%;
-    justify-items: stretch;
+    padding: 2%;
 }
 
 .english-lyrics {
@@ -47,7 +36,6 @@
     margin: .5em;
     padding: 1em;
     letter-spacing: 0.05em;
-    border: 1px solid red;
 }
 
 

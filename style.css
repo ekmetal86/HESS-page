@@ -52,24 +52,34 @@ a img {
 .navegador {
     width: auto;
     height: 20em;
-    background-image: url(assets/hess2g11.jpg);
+    background-image: url(assets/hess2g11.webp);
     background-position: center;
     background-size: cover;
     box-sizing: content-box;
     background-position-y: 40%;
 }
 
+.navegador .nav .dropdown   h3 {
+    font-family: "wolfsbane", sans-serif;
+    font-size: 2em;
+    color: var(--colorLetras);
+    background: var(--colorFondo);
+    outline: 1px solid var(--colorBordes);
+    border-radius: 0% 0% 2% 2%;
+    padding: 2%;
+}
+
 
 
 .dropbtn {
-    background-image: url(assets/HESSlogo.png);
+    background-image: url(assets/HESSlogo.webp);
     background-size: 100% 100%;
     color: var(--colorLetras);
     padding: 6em;
     /* font-size: 16px; */
     outline: 1px solid var(--colorBordes);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 2% 2% 0% 0%;
 }
 
 
