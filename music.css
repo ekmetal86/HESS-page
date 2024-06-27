@@ -4,11 +4,25 @@
 
 .musica {
     float: right;
-    width: 40%;
+    width: 100%;
     padding: 25px;
     margin: 25px;
 }
 
+.music-img img {
+    width: 50%;
+    margin: 2% 0;
+}
+
+.carta-audio {
+    outline: 1px solid rgb(223, 210, 64);
+    margin: 10%;
+    padding: 8% 8% 5% 5%;
+}
+
+.carta-audio h2 {
+    font-size: 1em;
+}
 
 /* -------------------- MUSIC PLAY-------------------- */
 
@@ -18,9 +32,9 @@
     font-family: 'wolfsbane', sans-serif;
     display: block;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width: 80%;
-    margin: auto;
+    margin: 20%;
 }
 
 .play h2 {
@@ -30,13 +44,16 @@
 }
 
 #audio-container {
-    text-align: center;
-    margin: 5em;
+    width: 80%;
+    text-align: left;
+    display: block;
+    align-items: start;
+    flex-wrap: wrap;
 }
 
 
 audio {
-    width: 100%;
+    width: 80%;
     margin-top: 10px;
 }
 
@@ -44,11 +61,12 @@ audio {
 #playlist-hagalaz,
 #playlist-maiden,
 #playlist-sailor,
-#playlist-aeon {
+#playlist-aeon, 
+#playlist-blod {
     font-size: 2em;
     list-style: none;
     padding-bottom: 2em;
-    text-align: center;
+    text-align: left;
     /* max-width: 300px; */
     margin-top: 25px auto;
 }
@@ -56,4 +74,9 @@ audio {
 .playlist-item {
     cursor: pointer;
     margin: 10px 0;
+}
+
+#audio-player {
+    width: 100%;
+    margin: 2%;
 }

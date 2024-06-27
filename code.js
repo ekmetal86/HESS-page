@@ -94,6 +94,11 @@ const sailor = [
   {name: "Sailor's Cross - European Edition", source: 'music/HESS - varios/HESS - sailors cross.mp3'}
 ];
 
+const blod = [
+  {name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3'},
+  {name: "02 - The Giant ( in memory of Ronnie James Dio )", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3'}
+];
+
 
 
 
@@ -102,6 +107,7 @@ const playlistHagalaz = document.getElementById('playlist-hagalaz');
 const playlistAeon = document.getElementById('playlist-aeon');
 const playlistMaiden = document.getElementById('playlist-maiden');
 const playlistSailor = document.getElementById('playlist-sailor');
+const playlistBlod = document.getElementById('playlist-blod');
 
 
 const audioPlayer = document.getElementById('audio-player');
@@ -146,6 +152,15 @@ sailor.forEach((song, index) => {
   playlistSailor.appendChild(listItem);
 });
 
+blod.forEach((song, index) => {
+  const listItem = document.createElement('li');
+  listItem.textContent = song.name;
+  listItem.className = 'playlist-item';
+  listItem.addEventListener('click', () => playBlod(index));
+  playlistBlod.appendChild(listItem);
+});
+
+
 function playHarpokrates(index) {
   const selectedSong = harpokrates[index];
   audioPlayer.src = selectedSong.source;
@@ -172,6 +187,12 @@ function playMaiden(index){
 
 function playSailor(index){
   const selectedSong = sailor[index];
+  audioPlayer.src = selectedSong.source;
+  audioPlayer.play();
+}
+
+function playBlod(index) {
+  const selectedSong = blod[index];
   audioPlayer.src = selectedSong.source;
   audioPlayer.play();
 }

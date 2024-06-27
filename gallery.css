@@ -4,17 +4,24 @@
 
 
 .hess-gallery {
-    color: var(--colorLetras);
-    width:fit-content;
+    width: 50%;
     margin: auto;
-    font-family: 'wolfs-bane-regular', sans-serif;
-    font-size: 1.3em;
-    letter-spacing: 0.05;
+    margin-top: 6%;
+    margin-bottom:5%;
     text-align: center;
+    border: 1px solid red;
+    padding: 2%;
+    letter-spacing: 0.1em;
+}
+
+.hess-gallery h1 {
+    color: var(--colorLetras);
+    font-size: 4em;
+    font-family: 'wolfsbane', sans-serif;
 }
 
 
-.efect h1 {
+/* .efect h1 {
     padding-bottom: 5px;
     font-size: 3em;
     letter-spacing: 0.05em;
@@ -24,7 +31,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
+} */
 
 .caja-imgs {
     display: flex;
@@ -36,7 +43,8 @@
 }
 
 .caja-imgs img {
-    height: 40vh;
+    width: fit-content;
+    height: 20em;
     margin: 2%;
     outline: 1px solid var(--colorBordes);
     border-radius: 1%;
