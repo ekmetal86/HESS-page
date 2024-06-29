@@ -60,43 +60,44 @@ const harpokrates = [
   { name: '06 - Battle Of Maldon', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 06 Battle of Maldon.mp3' },
   { name: '07 - Chaos At Uruk', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 07 Chaos at Uruk.mp3' },
   { name: '08 - Atlantean Dreams', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 08 Atlantean Dreams.mp3' },
-  { name: '09 - Hagalaz', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 09 Hagalaz.mp3'}
+  { name: '09 - Hagalaz', source: 'music/HESS - Harpokrates/HESS - Harpokrates - 09 Hagalaz.mp3' }
 ];
 
 // Hagalaz
 const hagalaz = [
-  { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3'},
-  { name: "02 - The Hessian", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 02 The Hessian.mp3'},
-  { name: "03 - Clarisse's Nightmare", source: "music/HESS - Hagalaz/HESS - Hagalaz - 03 Clarisse's Nightmare.mp3"},
-  { name: "04 - Der Teufel und sein Lehrling", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 04 Der Teufel und sein Lehrling.mp3'},
-  { name: "05 - The Giant (in memory of Ronnie James Dio)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3'},
-  { name: "06 - Interpretación", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 06 Interpretación.mp3'},
-  { name: "07 - Sailor`s Cross", source: "music/HESS - Hagalaz/HESS - Hagalaz - 07 Sailor's Cross.mp3"},
-  { name: "08 - Perpetual Flight", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 08 Perpetual Flight.mp3'},
-  { name: "09 - Boleskine House", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 09 Boleskine House.mp3'},
-  { name: "10 - Diamonds & Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3'}
+  { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
+  { name: "02 - The Hessian", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 02 The Hessian.mp3' },
+  { name: "03 - Clarisse's Nightmare", source: "music/HESS - Hagalaz/HESS - Hagalaz - 03 Clarisse's Nightmare.mp3" },
+  { name: "04 - Der Teufel und sein Lehrling", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 04 Der Teufel und sein Lehrling.mp3' },
+  { name: "05 - The Giant (in memory of Ronnie James Dio)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3' },
+  { name: "06 - Interpretación", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 06 Interpretación.mp3' },
+  { name: "07 - Sailor's Cross", source: "music/HESS - Hagalaz/HESS - Hagalaz - 07 Sailor's Cross.mp3" },
+  { name: "08 - Perpetual Flight", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 08 Perpetual Flight.mp3' },
+  { name: "09 - Boleskine House", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 09 Boleskine House.mp3' },
+  { name: "10 - Diamonds & Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3' }
 ];
 
 // Aeon of Ma'at part 1
 const aeon = [
-  {name: "01 - Priest Of Heka", source: 'music/HESS - Aeon/HESS - priests of heka.mp3'},
-  {name: "02 - Know My Name", source: 'music/HESS - Aeon/HESS - know my name.mp3'},
-  {name: "03 - Hall Of Truth", source: 'music/HESS - Aeon/HESS - hall of truth.mp3'}
+  { name: "01 - Priest Of Heka", source: 'music/HESS - Aeon/HESS - priests of heka.mp3' },
+  { name: "02 - Know My Name", source: 'music/HESS - Aeon/HESS - know my name.mp3' },
+  { name: "03 - Hall Of Truth", source: 'music/HESS - Aeon/HESS - hall of truth.mp3' }
 ];
 
 // Caught somewhere in time
 const maiden = [
-  {name: "Caught Somewhere In Time - Iron Maiden cover", source: 'music/HESS - Varios/HESS - Caught Somewhere In Time.mp3'}
+  { name: "Caught Somewhere In Time - Iron Maiden cover", source: 'music/HESS - Varios/HESS - Caught Somewhere In Time.mp3' }
 ];
 
 // Sailor's cross
 const sailor = [
-  {name: "Sailor's Cross - European Edition", source: 'music/HESS - varios/HESS - sailors cross.mp3'}
+  { name: "2020 - Sailor's Cross - European Edition", source: 'music/HESS - varios/HESS - sailors cross.mp3' }
 ];
 
+// Blod & Iron
 const blod = [
-  {name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3'},
-  {name: "02 - The Giant ( in memory of Ronnie James Dio )", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3'}
+  { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
+  { name: "02 - The Giant ( in memory of Ronnie James Dio )", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3' }
 ];
 
 
@@ -108,7 +109,6 @@ const playlistAeon = document.getElementById('playlist-aeon');
 const playlistMaiden = document.getElementById('playlist-maiden');
 const playlistSailor = document.getElementById('playlist-sailor');
 const playlistBlod = document.getElementById('playlist-blod');
-
 
 const audioPlayer = document.getElementById('audio-player');
 
@@ -161,38 +161,76 @@ blod.forEach((song, index) => {
 });
 
 
+
 function playHarpokrates(index) {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong = harpokrates[index];
-  audioPlayer.src = selectedSong.source;
-  audioPlayer.play();
+
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong.source;
+  }
 }
 
-function playHagalaz(index){
+function playHagalaz(index) {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong1 = hagalaz[index];
-  audioPlayer.src = selectedSong1.source;
-  audioPlayer.play();
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong1.source;
+  }
 }
 
-function playAeon(index2){
+function playAeon(index2) {
+  if (audioPlayer.paused){
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong1 = aeon[index2];
-  audioPlayer.src = selectedSong1.source;
-  audioPlayer.play();
+  if (audioPlayer.paused){
+    audioPlayer.src = selectedSong1.source;
+  }
 }
 
-function playMaiden(index){
+function playMaiden(index) {
+  if (audioPlayer.paused){
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong1 = maiden[index];
-  audioPlayer.src = selectedSong1.source;
-  audioPlayer.play();
+  if (audioPlayer.paused){
+    audioPlayer.src = selectedSong1.source;
+  }
 }
 
-function playSailor(index){
+function playSailor(index) {
+  if (audioPlayer.paused){
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong = sailor[index];
-  audioPlayer.src = selectedSong.source;
-  audioPlayer.play();
+  if (audioPlayer.paused){
+    audioPlayer.src = selectedSong.source;
+  }
 }
 
 function playBlod(index) {
+  if (audioPlayer.paused){
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
   const selectedSong = blod[index];
-  audioPlayer.src = selectedSong.source;
-  audioPlayer.play();
+  if (audioPlayer.paused){
+    audioPlayer.src = selectedSong.source;
+  }
 }
