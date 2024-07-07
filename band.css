@@ -25,6 +25,7 @@
 .carta-band-members img:hover {
     transition: all;
     transition-duration: 2s;
+    border-radius: 20px;
     outline: 1px solid var(--colorBordes);
 }
 

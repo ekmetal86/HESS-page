@@ -2,24 +2,21 @@
 
 /* -------------------- GALLERY -------------------- */
 
-
 .hess-gallery {
     width: 50%;
     margin: auto;
     margin-top: 6%;
-    margin-bottom:5%;
+    margin-bottom: 5%;
     text-align: center;
-    border: 1px solid red;
     padding: 2%;
-    letter-spacing: 0.1em;
 }
 
 .hess-gallery h1 {
     color: var(--colorLetras);
-    font-size: 4em;
-    font-family: 'wolfsbane', sans-serif;
+    font-size: 5em;
+    font-family: "wolfsbane", sans-serif;
+    letter-spacing: 0.1em;
 }
-
 
 /* .efect h1 {
     padding-bottom: 5px;
@@ -50,10 +47,36 @@
     border-radius: 1%;
     opacity: 0.6;
     min-height: 100px;
-    
 }
 
 .caja-imgs img:hover {
     opacity: 1;
-    transition: .5s;
+    transition: 0.5s;
+}
+
+
+/* ---------- LIGHTBOX ---------- */
+
+#lightbox {
+    /* Estilos para el elemento de fondo semitransparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Opacidad semitransparente */
+    display: none;
+    /* Oculto por defecto */
+}
+
+#lightbox img {
+    /* Estilos para la imagen ampliada */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ajusta el tamaño de la imagen ampliada */
+    max-width: 90%;
+    max-height: 90%;
 }

@@ -112,6 +112,8 @@ const playlistBlod = document.getElementById('playlist-blod');
 
 const audioPlayer = document.getElementById('audio-player');
 
+
+// Search songs index
 harpokrates.forEach((song, index) => {
   const listItem = document.createElement('li');
   listItem.textContent = song.name;
@@ -161,6 +163,7 @@ blod.forEach((song, index) => {
 });
 
 
+// Play funtions
 
 function playHarpokrates(index) {
   if (audioPlayer.paused) {
