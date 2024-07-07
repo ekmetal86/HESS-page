@@ -38,9 +38,8 @@
 /* -------------------- NAV -------------------- */
 
 .boton {
-    padding: 2%;
-    margin: 2%;
-    text-align: center;
+    padding: 1%;
+    margin: 1.5%;
 }
 
 a img {
@@ -61,12 +60,15 @@ a img {
 
 .navegador .nav .dropdown   h3 {
     font-family: "wolfsbane", sans-serif;
-    font-size: 2em;
+    font-size: 1em;
+    align-content: center;
+    letter-spacing: .3em;
     color: var(--colorLetras);
     background: var(--colorFondo);
     outline: 1px solid var(--colorBordes);
-    border-radius: 0% 0% 2% 2%;
-    padding: 2%;
+    border-radius: 0px 0px 2px 2px;
+    padding: 3%;
+    margin-bottom: 1%;
 }
 
 
@@ -75,13 +77,16 @@ a img {
     background-image: url(assets/HESSlogo.webp);
     background-size: 100% 100%;
     color: var(--colorLetras);
-    padding: 6em;
-    /* font-size: 16px; */
+    padding: 48.8%;
     outline: 1px solid var(--colorBordes);
     cursor: pointer;
-    border-radius: 2% 2% 0% 0%;
+    border-radius: 2px 2px 0px 0px;
 }
 
+.h3 {
+    width: 8em;
+    text-align: center;
+}
 
 .dropdown {
     position: relative;
@@ -92,18 +97,18 @@ a img {
     display: none;
     position: relative;
     background-color: var(--colorFondo);
-    min-width: 100px;
+    min-width: 50px;
     box-shadow: 0px 8px 16px 0px var(--colorFondo);
     z-index: 100;
-    border-radius: 10px;
+    border-radius: 0px 0px 2px 2px;
     outline: 1px solid var(--colorBordes);
-    padding: 0.6em;
+    /* padding: 0.6em; */
     margin: auto;
 }
 
 .dropdown-content a {
     color: var(--colorLetras);
-    padding: 10px 16px;
+    padding: 5%;
     text-decoration: none;
     display: block;
     font-size: 1.3em;
@@ -112,14 +117,18 @@ a img {
 
 .dropdown-content a:hover {
     background-color: var(--colorFondo);
+    border-radius: none;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: none;
 }
 
 .dropdown:hover .dropbtn {
     background-color: var(--colorFondo);
+    border-radius: none;
+
 }
 
 /* -------------------- TITULO --------------------*/

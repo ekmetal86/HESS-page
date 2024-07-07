@@ -113,6 +113,80 @@ const playlistBlod = document.getElementById('playlist-blod');
 const audioPlayer = document.getElementById('audio-player');
 
 
+// Play funtions
+
+function playHarpokrates(index) {
+  const selectedSong = harpokrates[index];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
+function playHagalaz(index) {
+  const selectedSong1 = hagalaz[index];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong1.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
+function playAeon(index2) {
+  const selectedSong1 = aeon[index2];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong1.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
+function playMaiden(index) {
+  const selectedSong1 = maiden[index];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong1.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
+function playSailor(index) {
+  const selectedSong = sailor[index];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
+function playBlod(index) {
+  const selectedSong = blod[index];
+  if (audioPlayer.paused) {
+    audioPlayer.src = selectedSong.source;
+  }
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+}
+
 // Search songs index
 harpokrates.forEach((song, index) => {
   const listItem = document.createElement('li');
@@ -163,77 +237,3 @@ blod.forEach((song, index) => {
 });
 
 
-// Play funtions
-
-function playHarpokrates(index) {
-  if (audioPlayer.paused) {
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong = harpokrates[index];
-
-  if (audioPlayer.paused) {
-    audioPlayer.src = selectedSong.source;
-  }
-}
-
-function playHagalaz(index) {
-  if (audioPlayer.paused) {
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong1 = hagalaz[index];
-  if (audioPlayer.paused) {
-    audioPlayer.src = selectedSong1.source;
-  }
-}
-
-function playAeon(index2) {
-  if (audioPlayer.paused){
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong1 = aeon[index2];
-  if (audioPlayer.paused){
-    audioPlayer.src = selectedSong1.source;
-  }
-}
-
-function playMaiden(index) {
-  if (audioPlayer.paused){
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong1 = maiden[index];
-  if (audioPlayer.paused){
-    audioPlayer.src = selectedSong1.source;
-  }
-}
-
-function playSailor(index) {
-  if (audioPlayer.paused){
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong = sailor[index];
-  if (audioPlayer.paused){
-    audioPlayer.src = selectedSong.source;
-  }
-}
-
-function playBlod(index) {
-  if (audioPlayer.paused){
-    audioPlayer.play();
-  } else {
-    audioPlayer.pause();
-  }
-  const selectedSong = blod[index];
-  if (audioPlayer.paused){
-    audioPlayer.src = selectedSong.source;
-  }
-}
