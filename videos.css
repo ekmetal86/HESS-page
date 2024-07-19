@@ -1,1 +1,26 @@
 @import url(style.css);
+
+.videos {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.caught,
+.priests,
+.hall,
+.know,
+.heroes,
+.chaos,
+.king,
+.atlantean,
+.clarisse {
+    margin: 1%;
+}
+
+iframe {
+    width: 100%;
+}
