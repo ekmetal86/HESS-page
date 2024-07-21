@@ -50,7 +50,7 @@ a img {
 
 .navegador {
     width: auto;
-    height: 20em;
+    height: 18em;
     background-image: url(assets/hess2g11.webp);
     background-position: center;
     background-size: cover;
@@ -193,7 +193,9 @@ a img {
     float: right;
     margin: 40px;
     margin-top: 13%;
+    padding-left: 5%;
     background-color: var(--colorFondo);
+    border-left: 2px solid rgb(223, 210, 64);
 }
 
 .aside-title {
@@ -208,9 +210,9 @@ a img {
 }
 
 .cartas-aside {
-    margin-bottom: 15px;
+    margin-bottom: 15%;
     border: 1px solid var(--colorBordes);
-    border-radius: 2%;
+    border-radius: 12px;
 }
 
 .cartas-aside img {
@@ -246,6 +248,7 @@ a img {
 }
 
 .copyright {
+    padding-top: 5%;
     width: 100%;
     text-align: center;
     letter-spacing: 0.05em;
@@ -276,4 +279,13 @@ footer .home a h3 {
     padding: 10px;
     letter-spacing: 0.05em;
     text-align: center;
+}
+
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media screen and (max-width: 1019px){
+    .aside{
+        display: none;
+    }
 }

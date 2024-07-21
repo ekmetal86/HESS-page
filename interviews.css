@@ -13,7 +13,7 @@
 }
 
 .article {
-    border-right: 1px solid var(--colorBordes);
+    /* border-right: 1px solid var(--colorBordes); */
     width: 75%;
 }
 

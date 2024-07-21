@@ -20,14 +20,16 @@
 
 .carta-band-members img {
     width: 80%;
+    border-radius: 20px;
+    outline: 1px solid var(--colorBordes)
 }
 
-.carta-band-members img:hover {
+/* .carta-band-members img:hover {
     transition: all;
     transition-duration: 2s;
     border-radius: 20px;
     outline: 1px solid var(--colorBordes);
-}
+} */
 
 .antiguos {
     width: 60%;
@@ -39,15 +41,42 @@
 
 .antiguos h3 {
     padding-bottom: 20px;
-    font-size: 2em;
+    font-size: 3em;
     letter-spacing: 0.05em;
 }
 
 .antiguos li {
-    font-size: 1.5em;
+    font-size: 1.9em;
     letter-spacing: 0.05em;
 }
 
 ul {
     list-style: none;
+}
+
+.bandmembers {
+    display: flex;
+    margin: 10% 10% 10% 0;
+}
+
+.bandmembers img {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+.bandmembers img:hover {
+    opacity: 1;
+}
+
+.bandIMG {
+    width: 15%;
+    height: auto;
+    padding: 1%;
+}
+
+@media screen and (max-width: 1019px){
+    .bandmembers{
+        display: none;
+    }
 }

@@ -46,7 +46,7 @@
     justify-content: left;
     width: 70%;
     margin: 5%;
-    border-right: 2px solid rgb(223, 210, 64);
+    /* border-right: 2px solid rgb(223, 210, 64); */
 }
 
 .play h2 {
