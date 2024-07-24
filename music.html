@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HESS Music</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="music.css">
 </head>
 
@@ -92,7 +93,7 @@
         <div class="cartas-aside">
             <h2>SCAN ME</h2>
             <div class="img-cartas">
-                <a href="https://www.instagram.com/hessheavymetal/?hl=es-la"><img src="assets/QR.webp" alt=""></a>
+                <a href="https://www.instagram.com/hessheavymetal/?hl=es-la" target="_blank"><img src="assets/QR.webp" alt=""></a>
             </div>
             <p>Follow us to find out all the news.</p>
             <p>Síguenos para enterarte de todas las novedades.</p>
@@ -109,7 +110,7 @@
 
 
     <div class="play">
-        <div id="audio-container">
+        <div id="audio-container" class="audio-container">
             <div class="hess">
                 <h1>MUSIC</h1>
             </div>
@@ -160,19 +161,21 @@
                 <p>Click song to play</p>
             </div>
             
-            <div class="carta-audio blod">
+            <div class="carta-audio blood">
                 <h2>2012 - Blood and Iron 'Demo'</h2>
                 <div class="music-img">
                     <img src="assets/HESSlogo.webp" alt="hess heavy metal logo">
                 </div>
-                <ul id="playlist-blod"></ul>
+                <ul id="playlist-blood"></ul>
                 <p>Click song to play</p>
             </div>
-
-            <audio controls id="audio-player">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
         </div>
+    </div>
+    
+    <div class="audio-container">
+        <audio controls id="audio-player">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
     </div>
 
     <footer>

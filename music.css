@@ -65,7 +65,7 @@
 
 
 audio {
-    width: 80%;
+    width: 70%;
     margin-top: 10px;
 }
 
@@ -74,7 +74,7 @@ audio {
 #playlist-maiden,
 #playlist-sailor,
 #playlist-aeon, 
-#playlist-blod {
+#playlist-blood {
     font-size: 2em;
     list-style: none;
     padding-bottom: 2em;
@@ -90,6 +90,6 @@ audio {
 }
 
 #audio-player {
-    width: 100%;
+    width: 70%;
     margin: 2%;
 }

@@ -7,45 +7,45 @@ const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootst
 // VIDEO
 
 // 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
+// var tag = document.createElement('script');
 
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// tag.src = "https://www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName('script')[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// 3. This function creates an <iframe> (and YouTube player)
-//    after the API code downloads.
-var player;
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player('player', {
-    height: '360',
-    width: '640',
-    videoId: 'v7K0ADi3Kr0?si=EzSyiggYjLXAglG3',
-    events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
-    }
-  });
-}
+// // 3. This function creates an <iframe> (and YouTube player)
+// //    after the API code downloads.
+// var player;
+// function onYouTubeIframeAPIReady() {
+//   player = new YT.Player('player', {
+//     height: '360',
+//     width: '640',
+//     videoId: 'v7K0ADi3Kr0?si=EzSyiggYjLXAglG3',
+//     events: {
+//       'onReady': onPlayerReady,
+//       'onStateChange': onPlayerStateChange
+//     }
+//   });
+// }
 
-// 4. The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-  event.target.playVideo();
-}
+// // 4. The API will call this function when the video player is ready.
+// function onPlayerReady(event) {
+//   event.target.playVideo();
+// }
 
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
-var done = false;
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.PLAYING && !done) {
-    setTimeout(stopVideo, 6000);
-    done = true;
-  }
-}
-function stopVideo() {
-  player.stopVideo();
-}
+// // 5. The API calls this function when the player's state changes.
+// //    The function indicates that when playing a video (state=1),
+// //    the player should play for six seconds and then stop.
+// var done = false;
+// function onPlayerStateChange(event) {
+//   if (event.data == YT.PlayerState.PLAYING && !done) {
+//     setTimeout(stopVideo, 6000);
+//     done = true;
+//   }
+// }
+// function stopVideo() {
+//   player.stopVideo();
+// }
 
 
 // MUSIC
@@ -65,7 +65,7 @@ const harpokrates = [
 
 // Hagalaz
 const hagalaz = [
-  { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
+  { name: "01 - Blood and Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
   { name: "02 - The Hessian", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 02 The Hessian.mp3' },
   { name: "03 - Clarisse's Nightmare", source: "music/HESS - Hagalaz/HESS - Hagalaz - 03 Clarisse's Nightmare.mp3" },
   { name: "04 - Der Teufel und sein Lehrling", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 04 Der Teufel und sein Lehrling.mp3' },
@@ -74,7 +74,7 @@ const hagalaz = [
   { name: "07 - Sailor's Cross", source: "music/HESS - Hagalaz/HESS - Hagalaz - 07 Sailor's Cross.mp3" },
   { name: "08 - Perpetual Flight", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 08 Perpetual Flight.mp3' },
   { name: "09 - Boleskine House", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 09 Boleskine House.mp3' },
-  { name: "10 - Diamonds & Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3' }
+  { name: "10 - Diamonds and Rust (Joan Baez-Judas Priest)", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 10 Diamonds & Rust (Joan Baez-Judas Priest).mp3' }
 ];
 
 // Aeon of Ma'at part 1
@@ -94,9 +94,9 @@ const sailor = [
   { name: "2020 - Sailor's Cross - European Edition", source: 'music/HESS - varios/HESS - sailors cross.mp3' }
 ];
 
-// Blod & Iron
-const blod = [
-  { name: "01 - Blood & Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
+// Blood & Iron
+const blood = [
+  { name: "01 - Blood and Iron", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 01 Blood & Iron.mp3' },
   { name: "02 - The Giant ( in memory of Ronnie James Dio )", source: 'music/HESS - Hagalaz/HESS - Hagalaz - 05 The Giant (in memory of Ronnie James Dio).mp3' }
 ];
 
@@ -108,7 +108,7 @@ const playlistHagalaz = document.getElementById('playlist-hagalaz');
 const playlistAeon = document.getElementById('playlist-aeon');
 const playlistMaiden = document.getElementById('playlist-maiden');
 const playlistSailor = document.getElementById('playlist-sailor');
-const playlistBlod = document.getElementById('playlist-blod');
+const playlistBlood = document.getElementById('playlist-blood');
 
 const audioPlayer = document.getElementById('audio-player');
 
@@ -175,8 +175,8 @@ function playSailor(index) {
   }
 }
 
-function playBlod(index) {
-  const selectedSong = blod[index];
+function playBlood(index) {
+  const selectedSong = blood[index];
   if (audioPlayer.paused) {
     audioPlayer.src = selectedSong.source;
   }
@@ -228,12 +228,12 @@ sailor.forEach((song, index) => {
   playlistSailor.appendChild(listItem);
 });
 
-blod.forEach((song, index) => {
+blood.forEach((song, index) => {
   const listItem = document.createElement('li');
   listItem.textContent = song.name;
   listItem.className = 'playlist-item';
-  listItem.addEventListener('click', () => playBlod(index));
-  playlistBlod.appendChild(listItem);
+  listItem.addEventListener('click', () => playBlood(index));
+  playlistBlood.appendChild(listItem);
 });
 
 

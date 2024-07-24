@@ -65,26 +65,30 @@
 }
 
 .discography {
-    width: 50%;
+    width: 90%;
     color: var(--colorLetras);
-    margin: 20px;
+    margin: 5%;
     font-family: 'wolfs-bane-regular', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.6em;
     letter-spacing: 0.05em;
     padding-bottom: 30px;
 }
 
 .discography h3 {
-    padding-bottom: 2em;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-bottom: 1.5em;
     letter-spacing: 0.05em;
 }
 
 .discography h4 {
+    font-size: 1.5em;
     padding-bottom: 0.8em;
     letter-spacing: 0.05em;
 }
 
 .discography ul {
+    list-style-type: none;
     padding-bottom: 2em;
 }
 

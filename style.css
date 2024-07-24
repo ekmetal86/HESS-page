@@ -152,7 +152,7 @@ a img {
 /* -------------------- CARTAS -------------------- */
 
 .cartas {
-    width: 50%;
+    width: 58%;
     margin: 40px;
     border: 1px solid var(--colorBordes);
     background-color: var(--colorFondo);
@@ -288,4 +288,23 @@ footer .home a h3 {
     .aside{
         display: none;
     }
+
+    .cartas {
+        width: 70%;
+    }
+
+    .article .interviews-cards{
+        width: 100%;
+    }
+
+    .play {
+        width: 100%;
+        align-items: center;
+    }
+
+    .carta-audio {
+        width: 95%;
+    }
+
+
 }
