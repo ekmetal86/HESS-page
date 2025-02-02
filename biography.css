@@ -4,20 +4,20 @@
 
 .article-biography {
     border: 1px solid var(--colorBordes);
-    width: 95%;
+    width: 97%;
     margin: 2em;
     display: flex;
 }
 
 .left {
     float: left;
-    width: 45%;
+    width: 42%;
     margin: 2%;
     margin-bottom: 2em;
 }
 
 .right {
-    width: 45%;
+    width: 42%;
     float: right;
     margin: 2%;
     margin-bottom: 2em;
@@ -40,7 +40,7 @@
     text-align: left;
     text-decoration: underline;
     font-style: 'wolfsbane', sans-serif;
-    font-size: 2em;
+    font-size: 2.2em;
     letter-spacing: 0.05em;
     padding: 1em;
     margin-top: 3em;
@@ -67,9 +67,43 @@
     padding: 0.5em;
 }
 
+li {
+    list-style-type: none
+}
+
 .biography-link {
     padding: 1em;
     font-size: 2em;
     letter-spacing: 0.05em;
     color: var(--colorLetras);
+}
+
+@media screen and (max-width: 1440px){
+    .article-biography {
+        /* border: 1px solid var(--colorBordes); */
+        width: 90%;
+        margin: 2em;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .article-biography {
+        border: none;
+        width: 90%;
+        margin: 2em;
+        display: block;
+    }
+
+    .left {
+        width: 95%;
+        margin: 2%;
+        margin-bottom: 2em;
+    }
+    
+    .right {
+        width: 95%;
+        margin: 2%;
+        margin-bottom: 2em;
+    }
 }
