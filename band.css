@@ -80,3 +80,22 @@ ul {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px){
+    .hess {
+        font-size: 1.4em;
+    }
+
+    .carta-band-members {
+        width: 80%;
+    }
+
+    .antiguos h3 {
+        font-size: 2em;
+        letter-spacing: 0.05em;
+    }
+
+    .antiguos li {
+        font-size: 1.5em;
+    }
+}

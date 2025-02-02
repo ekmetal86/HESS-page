@@ -143,10 +143,11 @@ a img {
 }
 
 .hess h1 {
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     font-size: 1.6em;
     letter-spacing: 0.05em;
     text-decoration: underline;
+    margin-left: .5em;
 }
 
 /* -------------------- CARTAS -------------------- */
@@ -305,6 +306,27 @@ footer .home a h3 {
     .carta-audio {
         width: 95%;
     }
+}
 
+@media screen and (max-width: 768px){
+    .hess h1 {
+        font-size: 1em;
+    }
+
+    .cartas h2 {
+        text-decoration: underline;
+        padding: 3%;
+        margin: 1em 0;
+        color: var(--colorLetras);
+        font-size: 1.5em;
+        letter-spacing: 0.05em;
+    }
+
+    .cartas p {
+        padding: 3%;
+        color: var(--colorLetras);
+        font-size: 1.5em;
+        letter-spacing: 0.05em;
+    }
 
 }
