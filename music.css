@@ -67,10 +67,67 @@
     flex-wrap: wrap;
 }
 
+/* -------------------- AUDIO PLAYER STYLING -------------------- */
 
 audio {
     width: 70%;
     margin-top: 10px;
+    filter: sepia(100%) saturate(400%) brightness(95%) hue-rotate(350deg);
+}
+
+/* Estilos específicos para el reproductor de audio */
+audio::-webkit-media-controls-panel {
+    background-color: var(--colorFondo);
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: var(--colorLetras);
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider {
+    filter: brightness(150%);
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: var(--colorBordes);
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: var(--colorBordes);
+}
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button {
+    background-color: var(--colorBordes);
+    border-radius: 50%;
+}
+
+.playlist-item {
+    cursor: pointer;
+    margin: 10px 0;
+    width: fit-content;
+    transition: color 0.3s ease;
+}
+
+.playlist-item:hover {
+    color: var(--colorBordes);
+}
+
+.playlist-item.active {
+    color: var(--colorBordes);
+    text-decoration: underline;
+}
+
+#audio-player {
+    width: 70%;
+    margin: 2%;
+    outline: 1px solid var(--colorBordes);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--colorFondo);
 }
 
 #playlist-harpokrates,
@@ -85,17 +142,6 @@ audio {
     text-align: left;
     /* max-width: 300px; */
     margin-top: 25px auto;
-}
-
-.playlist-item {
-    cursor: pointer;
-    margin: 10px 0;
-    width: fit-content;
-}
-
-#audio-player {
-    width: 70%;
-    margin: 2%;
 }
 
 @media screen and (max-width: 768px) {
