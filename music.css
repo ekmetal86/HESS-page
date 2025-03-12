@@ -91,13 +91,14 @@ audio::-webkit-media-controls-volume-slider {
     filter: brightness(150%);
 }
 
+audio::-webkit-media-controls-volume-slider {
+    background-color: var(--colorBordes);
+}
+
 audio::-webkit-media-controls-timeline {
     background-color: var(--colorBordes);
 }
 
-audio::-webkit-media-controls-volume-slider {
-    background-color: var(--colorBordes);
-}
 
 audio::-webkit-media-controls-mute-button,
 audio::-webkit-media-controls-play-button {
